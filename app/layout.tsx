@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque,Oswald } from "next/font/google";
-import localfont from "next/font/local"
+import localfont from "next/font/local";
 import "./globals.css";
 import { cn} from "../lib/utils";
 import GrainEffect from "@/components/visualEffects/grain-effect";
@@ -8,7 +8,7 @@ import  Cursor  from "@/components/visualEffects/cursor/cursor";
 
 //FONTS
 const mainfont = Bricolage_Grotesque({ subsets: ["latin"] });
-const Oswaldfont = Bricolage_Grotesque({subsets:["latin"], variable: "--Oswald-font"});
+const Oswaldfont = Oswald({ subsets: ["latin"], variable: "--Oswald-font"});
 const pixelfont=localfont({
   src:"../public/assets/fonts/pixel-font-7.ttf",
 variable:"--font-pixel"
