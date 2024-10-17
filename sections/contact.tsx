@@ -66,7 +66,7 @@ export default function ContactSection() {
                 </span>
               }
               
-              text="+923147854406"
+              text="+923206335168"
               btnText="Call us"
             />
             <ContactCard
